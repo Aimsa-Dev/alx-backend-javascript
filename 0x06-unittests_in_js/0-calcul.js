@@ -1,9 +1,8 @@
-function calculateNumber(a, b) {
-	    const an = Math.round(a);
-	    const bn = Math.round(b);
-	    const c = an + bn;
-	    return c;
+const calculateNumber = (a, b) => {
+		a = Math.round(a);
+		b = Math.round(b);
+
+		return a + b;
 }
 
 module.exports = calculateNumber;
-
